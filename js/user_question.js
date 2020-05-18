@@ -9,6 +9,7 @@ for (var i = 0; i < 3; i++) {
 console.log('Su nombre es: ' + name);
 console.log('Sus coches han sido: ' + arrayCars);
 
-document.write("Su nombre es: " + name);
-document.write("<br>")
-document.write("Sus coches son: " + arrayCars);
+document.write("<img class='imgFloat' src='_assets/img/user_icon.png' width='2%'>")
+document.write("<section><article><h1>Su nombre es: " + name + "</section></article></h1>");
+document.write("<img class='imgFloat' src='_assets/img/car_icon.png' width='2%'>")
+document.write("<section><article><h1>Sus coches son: " + arrayCars + "</section></article></h1>");
